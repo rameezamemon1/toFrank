@@ -1,0 +1,16 @@
+.sidebar {
+    background-image: url("https://demos.creative-tim.com/material-dashboard-react/static/media/sidebar-2.22f68ba5.jpg") !important;
+    background-size: cover;
+    background-position: center center;
+    /* position: absolute; */
+  }
+  
+  .sidebar::after {
+    content: "" !important;
+    position: absolute !important;
+    display: block !important;
+    opacity: 0.8 !important;
+    z-index: 3 !important;
+    background: black !important;
+  }
+  
